@@ -13,7 +13,7 @@ setMethod("show","Studinfo",function(obj){
 
 #12c 	Create reference class and modify its methods
 Studata=setRefClass("Studata",fields=list(rollno="numeric",name="character",age="numeric",branch="character"))
-stud1=Studata(rollno=556,name="Harshit",age=19,branch="CSE")
+stud1=Studata(rollno=576,name="Kumar",age=19,branch="CSE")
 show(stud1)
 setMethod("show","Studata",
           function(object)
