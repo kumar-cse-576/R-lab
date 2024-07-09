@@ -1,6 +1,6 @@
 #12a Create s4 class and s4 object
 setClass("Studinfo",slots=list(rollno="numeric",name="character",age="numeric",branch="character"))
-stud1=new("Studinfo",rollno=556,name="Harshit",age=19,branch="CSE")
+stud1=new("Studinfo",rollno=576,name="Kumar",age=19,branch="CSE")
 print(stud1)
 
 #12b write a generic function for s4
