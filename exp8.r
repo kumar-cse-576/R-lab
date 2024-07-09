@@ -1,0 +1,16 @@
+#8aa)	Create Matrix and access it using rownames() and colnames()
+mat=matrix(c(1,2,3,4,5,6,7,8,9),nrow=3,ncol=3)
+colnames(mat)=c('c1','c2',"c3")
+rownames(mat)=c('r1','r2','r3')
+print(mat)
+print(mat[,'c1'])
+print(mat['r2',])
+print(mat['r2','c3'])
+
+
+#8b	Create matrix using cbind() and rbind()
+x=c(1,2,3,4,5)
+y=c(6,7,8,9,10)
+z=c(11,12,13,14,15)
+cbind(x,y,z)
+rbind(x,y,z)
