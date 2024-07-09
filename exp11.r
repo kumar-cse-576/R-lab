@@ -5,7 +5,7 @@ subject[3]="AJP"
 print(subject)
 
 #11b create a class and 
-student=list(rollno=556,name="Harshit",age=19,branch="CSE")
+student=list(rollno=576,name="Kumar",age=19,branch="CSE")
 class(student)="Info"
 print(student)
 
