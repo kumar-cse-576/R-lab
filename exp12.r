@@ -4,7 +4,7 @@ stud1=new("Studinfo",rollno=576,name="Kumar",age=19,branch="CSE")
 print(stud1)
 
 #12b write a generic function for s4
-setMethod("show","Studinfo",function(obj){
+setMethod("show","Studinfo",function(object){
   print(object@rollno)
   print(object@name)
   print(object@age)
